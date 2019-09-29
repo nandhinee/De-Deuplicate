@@ -1,21 +1,14 @@
 {
   "leads" : [ {
     "_id" : "id1",
-    "email" : "apple",
-    "firstName" : "id1+apple",
-    "lastName" : null,
+    "email" : "banana@foo.com",
+    "firstName" : "id1+banana",
+    "lastName" : "lastname",
     "address" : null,
-    "entryDate" : "2014-05-07T17:00:00+00:00"
-  }, {
-    "_id" : "id2",
-    "email" : "banana",
-    "firstName" : "id2+banana",
-    "lastName" : null,
-    "address" : null,
-    "entryDate" : "2014-05-07T17:30:00+00:00"
+    "entryDate" : "2014-05-07T17:40:00+00:00"
   }, {
     "_id" : "id4",
-    "email" : "grapes",
+    "email" : "grapes@foo.com",
     "firstName" : "id3+grapes",
     "lastName" : null,
     "address" : null,

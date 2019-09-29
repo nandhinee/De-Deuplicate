@@ -1,13 +1,11 @@
 {"leads":[
 {
-"_id": "id1",
 "email": "apple@foo.com",
 "firstName":  "id1+apple",
 "entryDate": "2014-05-07T17:00:00+00:00"
 },
 {
 "_id": "id2",
-"email": "banana@foo.com",
 "firstName":  "id2+banana",
 "entryDate": "2014-05-07T17:30:00+00:00"
 },
@@ -15,13 +13,6 @@
 "_id": "id1",
 "email": "banana@foo.com",
 "firstName":  "id1+banana",
-"lastName": "lastname",
-"entryDate": "2014-05-07T17:40:00+00:00"
-},
-{
-"_id": "id4",
-"email": "grapes@foo.com",
-"firstName":  "id3+grapes",
-"entryDate": "2014-05-07T17:15:00+00:00"
+"lastName": "lastname"
 }]
 }

@@ -1,4 +1,14 @@
-2019-09-28 17:09:27 INFO  App:60 - id is duplicate: id1
-2019-09-28 17:09:27 INFO  App:67 - duplicate encountered but skipping since new lead id1is older than lead id1
-2019-09-28 17:09:27 INFO  App:63 - email is duplicate: banana
-2019-09-28 17:09:27 INFO  App:67 - duplicate encountered but skipping since new lead id1is older than lead id2
+2019-09-28 18:55:21 INFO  DuplicatesRemover:58 - id is duplicate: id1
+2019-09-28 18:55:21 INFO  DuplicatesRemover:70 - source lead: {"_id":"id1","email":"apple@foo.com","firstName":"id1+apple","lastName":null,"address":null,"entryDate":"2014-05-07T17:00:00+00:00"}
+2019-09-28 18:55:21 INFO  DuplicatesRemover:75 - new lead: {"_id":"id1","email":"banana@foo.com","firstName":"id1+banana","lastName":"lastname","address":null,"entryDate":"2014-05-07T17:40:00+00:00"}
+2019-09-28 18:55:21 INFO  DuplicatesRemover:101 - lead email changed from apple@foo.com to banana@foo.com
+2019-09-28 18:55:21 INFO  DuplicatesRemover:105 - lead firstname changed from id1+apple to id1+banana
+2019-09-28 18:55:21 INFO  DuplicatesRemover:109 - lead lastname changed from null to lastname
+2019-09-28 18:55:21 INFO  DuplicatesRemover:114 - lead entrydate changed from 2014-05-07T17:00:00+00:00 to 2014-05-07T17:40:00+00:00
+2019-09-28 18:55:21 INFO  DuplicatesRemover:61 - email is duplicate: banana@foo.com
+2019-09-28 18:55:21 INFO  DuplicatesRemover:70 - source lead: {"_id":"id2","email":"banana@foo.com","firstName":"id2+banana","lastName":null,"address":null,"entryDate":"2014-05-07T17:30:00+00:00"}
+2019-09-28 18:55:21 INFO  DuplicatesRemover:75 - new lead: {"_id":"id1","email":"banana@foo.com","firstName":"id1+banana","lastName":"lastname","address":null,"entryDate":"2014-05-07T17:40:00+00:00"}
+2019-09-28 18:55:21 INFO  DuplicatesRemover:99 - lead id changed from id2 to id1
+2019-09-28 18:55:21 INFO  DuplicatesRemover:105 - lead firstname changed from id2+banana to id1+banana
+2019-09-28 18:55:21 INFO  DuplicatesRemover:109 - lead lastname changed from null to lastname
+2019-09-28 18:55:21 INFO  DuplicatesRemover:114 - lead entrydate changed from 2014-05-07T17:30:00+00:00 to 2014-05-07T17:40:00+00:00
