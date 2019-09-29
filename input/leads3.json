@@ -1,0 +1,27 @@
+{"leads":[
+{
+"_id": "id1",
+"email": "apple",
+"firstName":  "id1+apple",
+"entryDate": "2014-05-07T17:00:00+00:00"
+},
+{
+"_id": "id2",
+"email": "banana",
+"firstName":  "id2+banana",
+"entryDate": "2014-05-07T17:30:00+00:00"
+},
+{
+"_id": "id1",
+"email": "banana",
+"firstName":  "id1+banana",
+"lastName": "lastname",
+"entryDate": "2014-05-07T16:14:00+00:00"
+},
+{
+"_id": "id4",
+"email": "grapes",
+"firstName":  "id3+grapes",
+"entryDate": "2014-05-07T17:15:00+00:00"
+}]
+}

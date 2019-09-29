@@ -1,0 +1,15 @@
+2019-09-28 13:57:29 INFO  App:62 - id is duplicate: id1
+2019-09-28 13:57:33 INFO  App:74 - source lead: {"_id":"id1","email":"id1@foo.com","firstName":"id1","lastName":"foo","address":"123 Street St","entryDate":"2014-05-07T17:10:00+00:00"}
+2019-09-28 13:57:35 INFO  App:79 - new lead: {"_id":"id1","email":"id2@test.com","firstName":"new","lastName":"record","address":"same date and new address","entryDate":"2014-05-07T17:30:00+00:00"}
+2019-09-28 13:58:33 INFO  App:107 - lead email changed from id1@foo.com to id2@test.com
+2019-09-28 13:58:33 INFO  App:109 - lead firstname changed from id1 to new
+2019-09-28 13:58:33 INFO  App:111 - lead lastname changed from foo to record
+2019-09-28 13:58:33 INFO  App:116 - lead entrydate changed from 2014-05-07T17:10:00+00:00 to 2014-05-07T17:30:00+00:00
+2019-09-28 13:58:33 INFO  App:118 - lead address changed from 123 Street St to same date and new address
+2019-09-28 13:58:38 INFO  App:65 - email is duplicate: id2@test.com
+2019-09-28 13:58:42 INFO  App:74 - source lead: {"_id":"id2","email":"id2@test.com","firstName":"id2","lastName":"test","address":"latest address","entryDate":"2014-05-07T17:30:00+00:00"}
+2019-09-28 13:58:43 INFO  App:79 - new lead: {"_id":"id1","email":"id2@test.com","firstName":"new","lastName":"record","address":"same date and new address","entryDate":"2014-05-07T17:30:00+00:00"}
+2019-09-28 13:59:18 INFO  App:105 - lead id changed from id2 to id1
+2019-09-28 13:59:18 INFO  App:109 - lead firstname changed from id2 to new
+2019-09-28 13:59:18 INFO  App:111 - lead lastname changed from test to record
+2019-09-28 13:59:18 INFO  App:118 - lead address changed from latest address to same date and new address

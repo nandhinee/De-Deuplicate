@@ -1,0 +1,26 @@
+{"leads":[
+{
+"_id": "id1",
+"email": "id1@foo.com",
+"firstName":  "id1",
+"lastName": "foo",
+"address": "123 Street St",
+"entryDate": "2014-05-07T17:10:00+00:00"
+},
+{
+"_id": "id2",
+"email": "id2@test.com",
+"firstName":  "id2",
+"lastName": "test",
+"address": "latest address",
+"entryDate": "2014-05-07T17:30:00+00:00"
+},
+{
+"_id": "id1",
+"email": "id1@foo.com",
+"firstName":  "new",
+"lastName": "record",
+"address": "new address",
+"entryDate": "2014-05-07T17:10:00+00:00"
+}]
+}

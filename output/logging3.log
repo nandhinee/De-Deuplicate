@@ -1,0 +1,4 @@
+2019-09-28 17:09:27 INFO  App:60 - id is duplicate: id1
+2019-09-28 17:09:27 INFO  App:67 - duplicate encountered but skipping since new lead id1is older than lead id1
+2019-09-28 17:09:27 INFO  App:63 - email is duplicate: banana
+2019-09-28 17:09:27 INFO  App:67 - duplicate encountered but skipping since new lead id1is older than lead id2
