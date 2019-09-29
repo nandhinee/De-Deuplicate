@@ -40,7 +40,6 @@ public class Lead {
 
 	@Override
 	public int hashCode() {
-		// same hashcode executes equals method to compare lead objects
 		return 0;
 	}
 

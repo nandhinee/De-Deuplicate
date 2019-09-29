@@ -34,10 +34,10 @@ public class DuplicatesRemover {
 		// clear the set to remove leads from previous call
 		result.clear();
 		
-		// contains unique leads by comparing id and email
+		// contains unique leads by comparing id, email
 		Set<Lead> set = new HashSet<Lead>();
 		if (leadsObj != null && leadsObj.leads.size() > 0) {
-
+			// iterate over the leads list
 			for (Lead curr : leadsObj.leads) {
 				// process only if id, email, date are not null
 				if (curr._id != null && !curr._id.isEmpty() && curr.email != null && !curr.email.isEmpty()
